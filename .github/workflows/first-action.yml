@@ -5,6 +5,6 @@ jobs:
     runs-on: macos-latest
     steps:
       - name: Print greeting
-        run: echo "Starting Action"
-      - name: Print Goodbye
-        run: echo "Finished Action!"
+        run: | 
+          echo "Starting Action"
+          echo "Finished Action!"
