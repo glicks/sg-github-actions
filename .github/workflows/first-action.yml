@@ -5,6 +5,6 @@ jobs:
     runs-on: macos-11
     steps:
       - name: Print greeting
-        run: echo "Hello World"
+        run: echo "Starting Action"
       - name: Print Goodbye
         run: echo "Finished Action!"
